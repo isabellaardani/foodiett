@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MieGorengScreen extends StatelessWidget {
-  static const String routeName = "/miegoreng";
+class TttkuahScreen extends StatelessWidget {
+  static const String routeName = "/tttkuah";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class MieGorengScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow4.jpg'),
+          backgroundImage: AssetImage('assets/images/wow18.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class MieGorengScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Mie Goreng Shirataki',
+        'Tempe Tahu Telur Kuah Santan Kemangi',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,31 +30,38 @@ class MieGorengScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	1 pack mie shirataki
-•	5 bh bawang merah, iris
-•	1 bh paprika, iris
-•	100 gr baby buncis
-•	Secukupnya sawi asin
-•	2 butir telur, kocok lepas
-•	1/2 sdt merica bubuk
-•	3 sdm saus tiram
-•	2 sdm kecap manis
-•	3 bh rawit merah, potong bulat (opt)
+•	1/2 kotak tempe
+•	1/2 kotak tahu
+•	3 butir telur ayam
+•	1 daun salam
+•	1/2 ikat kemangi
+•	1 buah tomat
+•	1 buah cabe merah keriting
+•	1 buah cabe merah besar
+•	2 sdt fiber cream (untuk santannya)
+•	secukupnya Air
+•	sesuai selera Gula,garam kaldu jamur
+•	Bumbu halus
+•	2 siung bawang putih
+•	8 siung bawang merah
+•	1 ruas jari jahe
 
 
 Langkah	
-•	Siapkan mie Shirataki, rebus dlm air mendidih yg diberi sdkt garam dan 1 sdm minyak sayur. Stlh matang (lembut) angkat >> tiriskan
-•	Siapkan bumbu² dan potongan sayur yg telah dicuci
-•	Tumis bawang merah hg kuning lalu masukkan telur buat orak arik baru + paprika, aduk² hg harum + sayuran, masak hg lunak kemudian beri merica bubuk, aduk rata.
-•	Masukkan mie Shirataki, aduk hg merata baru + saus tiram dan kecap manis serta 1 sdm kecap ikan jika suka, aduk² masak dg api kecil. Setelah tercampur rata baru besarkan api, masak sebentar lalu matikan apinya.
-•	Sajikan panas². Enjoy 😋 
-
+•	Rebus telur terlebih dahulu,kemudian cuci bersih kemangi
+•	Potong kecil tahu,tempe,cabe merah besar dan cabe merah keriting
+•	Haluskan semua bumbu halus
+•	Tumis bumbu halus sampai harum kemudian tambahkan daun salam
+•	Masukan air, fiber cream
+•	Setelah agak mendidih masukan tahu, tempe, cabe merah besar, cabe merah keriting
+•	Tambahkan garam,gula,kaldu jamur kemudian koreksi rasa
+•	Masukan telur dan kemangi
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
     );
 
-   final body = Container(
+    final body = Container(
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.all(28.0),
       decoration: BoxDecoration(

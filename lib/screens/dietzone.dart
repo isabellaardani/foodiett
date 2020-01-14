@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class DietzoneScreen extends StatelessWidget {
+  static const String routeName = "/dietzone";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/jenisdiet/d15.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'The Zone Diet',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -29,28 +29,13 @@ class SpaghetiScreen extends StatelessWidget {
       padding: EdgeInsets.all(8.0),
       child: Text(
         '''
-Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
-•	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+Zone diet atau lebih dikenal zona diet adalah diet yang memanfaatkan perbandingan rasio asupan makanan setiap harinya 40% Karbohidrat, 30% Protein dan 30% Lemak. Rasio perbandingan ini harus diterapkan baik untuk asupan makanan maupun camilan.
 
+Sehingga dengan rasio asupan yang seimbang, tubuh tetap dapat menghasilkan energi dari asupan karbohidrat seimbang dan lemak pun tetap terbakar.
 
-Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
+Tipsnya adalah kamu dapat membagi piring kamu menjadi 3 bagian. Dimana 1/3 bagian piring diisi dengan makanan tinggi protein rendah lemak seperti ayam, ikan, keju rendah lemak, tahu, atau potongan tipis daging sapi. Sedangkan 2/3 bagian piring dapat diisi dengan sumber karbohidrat rendah glisemik seperti sayur-sayuran dan buah-buahan.
 
+Diet ini mengarahkan pada gaya hidup sehat dengan kembali mengkonsumsi makanan kaya nutrisi dan meninggalkan makanan cepat saji.
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +50,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class TumisTogeScreen extends StatelessWidget {
+  static const String routeName = "/tumistoge";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/wow19.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'Tumis Tauge Kaldu Ebi',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,27 +30,29 @@ class SpaghetiScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
-•	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+•	100 gr tauge
+•	1 sdm ebi
+•	1 siung bawang putih
+•	3 siung bawang merah
+•	1 buah cabe merah besar
+•	2 buah cabe rawit (kl mau pedas bs tambah)
+•	Telur
+•	secukupnya Air
+•	Bumbu
+•	1 sdt Garam
+•	1/2 sdt Gula
+•	1/2 sdt Merica
+•	1 sdt Kaldu jamur
 
 
 Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
-
+•	Cuci bersih semua bahan
+•	Cincang halus bawang putih dan bawang merah
+•	Potong - potong cabe merah besar dan cabe rawit
+•	Tumis bawang merah,bawang putih,cabe merah dan cabe rawit sampai harum
+•	Masukan ebi kecil dan telur
+•	Masukan air dan tambahkan bumbu kemudian koreksi rasa
+•	Tumis tauge kaldu ebi siap di makan
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +67,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 

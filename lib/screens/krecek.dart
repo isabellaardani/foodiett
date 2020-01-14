@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class KrecekScreen extends StatelessWidget {
+  static const String routeName = "/krecek";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/wow17.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'Krecek Telur Bumbu Petis',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,27 +30,24 @@ class SpaghetiScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
-•	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+•	2 butir telur
+•	50 gr krecek
+•	2 1/2 sdm petis
+•	1 1/2 sdt kecap tropicanaslim
+•	sesuai selera Cabe rawit
+•	secukupnya Air
+•	sesuai selera Gula,garam dan kaldu jamur
+•	Bumbu halus
+•	1 siung bawang putih besar
+•	9 siung bawang merah
 
 
 Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
-
+•	Rebus krecek dan telur
+•	Haluskan bumbu halus
+•	Larutkan petis dalam air lalu masukan kedalam tumisan bumbu halus. Jika sudah masukan cabe kedalamnya (cabe bisa dibiarkan untuh atau di potong kecil kecil)
+•	Masukan air,gula,garam dan kaldu jamur kemudian tes rasa
+•	Masukan telur dan krecek lalu tunggu sampai bumbu meresap
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +62,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 

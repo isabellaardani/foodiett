@@ -36,6 +36,19 @@ flutter:
     - assets/images/wow6.jpg
     - assets/images/wow7.jpg
     - assets/images/wow8.jpg
+    - assets/images/wow9.jpg
+    - assets/images/wow10.jpg
+    - assets/images/wow11.jpg
+    - assets/images/wow12.jpg
+    - assets/images/wow13.jpg
+    - assets/images/wow14.jpg
+    - assets/images/wow15.jpg
+    - assets/images/wow16.jpg
+    - assets/images/wow17.jpg
+    - assets/images/wow18.jpg
+    - assets/images/wow19.jpg
+    - assets/images/wow20.jpg
+    - assets/images/wow21.jpg
     - assets/images/jenisdiet/d1.jpg
     - assets/images/jenisdiet/d2.jpg
     - assets/images/jenisdiet/d3.jpg
@@ -45,6 +58,13 @@ flutter:
     - assets/images/jenisdiet/d7.jpg
     - assets/images/jenisdiet/d8.jpg
     - assets/images/jenisdiet/d9.jpg
+    - assets/images/jenisdiet/d10.jpg
+    - assets/images/jenisdiet/d11.jpg
+    - assets/images/jenisdiet/d12.jpg
+    - assets/images/jenisdiet/d13.jpeg
+    - assets/images/jenisdiet/d14.jpg
+    - assets/images/jenisdiet/d15.jpg
+    - assets/images/jenisdiet/d16.jpeg
     
     - data_repo/starwars_data.json
 

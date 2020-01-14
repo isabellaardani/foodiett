@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodiet/screens/tentang.dart';
-
 import 'package:foodiet/screens/dietketogenik.dart';
 import 'package:foodiet/screens/dietocd.dart';
 import 'package:foodiet/screens/dietrendahlemak.dart';
@@ -10,6 +8,13 @@ import 'package:foodiet/screens/dietdadaayam.dart';
 import 'package:foodiet/screens/dietfood.dart';
 import 'package:foodiet/screens/dietmayo.dart';
 import 'package:foodiet/screens/dietnasi.dart';
+import 'package:foodiet/screens/dietvegan.dart';
+import 'package:foodiet/screens/dietpaleo.dart';
+import 'package:foodiet/screens/dietdukan.dart';
+import 'package:foodiet/screens/diethcg.dart';
+import 'package:foodiet/screens/dietfasting.dart';
+import 'package:foodiet/screens/dietzone.dart';
+import 'package:foodiet/screens/dietlowfat.dart';
 
 
     class JenisDietttScreen extends StatelessWidget {
@@ -115,6 +120,69 @@ import 'package:foodiet/screens/dietnasi.dart';
              trailing: Icon(Icons.keyboard_arrow_right),
              onTap: () {
                Navigator.pushNamed(context, DietNasiScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d10.jpg'),
+          ),
+            title: Text('Diet Vegan'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietveganScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d11.jpg'),
+          ),
+            title: Text('Diet Paleo'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietpaleoScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d12.jpg'),
+          ),
+            title: Text('Diet Dukan'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietdukanScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d13.jpeg'),
+          ),
+            title: Text('Diet HCG'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DiethcgScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d14.jpg'),
+          ),
+            title: Text('Intermittent Fasting'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietfastingScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d15.jpg'),
+          ),
+            title: Text('The Zone Diet'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietzoneScreen.routeName);
+             },
+          ),
+          ListTile(
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/jenisdiet/d16.jpeg'),
+          ),
+            title: Text('The Ultra Low Fat Diet'),
+             trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, DietlowfatScreen.routeName);
              },
           ),
         ],

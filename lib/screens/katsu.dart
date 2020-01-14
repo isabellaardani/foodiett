@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class KatsuScreen extends StatelessWidget {
+  static const String routeName = "/katsu";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/wow20.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'Chicken Katsu (Non MSG)',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,27 +30,23 @@ class SpaghetiScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
-•	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+•	4 dada ayam fillet
+•	2 sdm Tepung serbaguna (sya pakai merk ladang lima)
+•	1 butir Telur
+•	secukupnya Tepung roti
+•	Bumbu rendaman ayam
+•	1 1/2 sdt bawang putih bubuk
+•	1 sdt garam
+•	1 sdt kaldu jamur
+•	1/2 sdt merica
+•	1/2 sdt palmsugar
 
 
 Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
-
+•	Rendam dada ayam fillet dengan bumbu rendam selama kurang lebih 15 - 20 menit
+•	Lumuri dada ayam fillet dengan tepung bumbu serbaguna,setelah itu celupkan pada kocokan telur kemudian lumuri dengan tepung roti sampai rata
+•	Setelah selesai masukan ayam fillet kedalam lemari es biar tepung rotinya menempel sempurna
+•	Setelah di masukan kedalam lemari es chicken katsu siap di goreng
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +61,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 

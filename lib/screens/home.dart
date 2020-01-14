@@ -38,10 +38,10 @@ class HomeScreenState extends State<HomeScreen> {
   var myNavChildren = [
     headerChild,
        getNavItem(Icons.home, "Home", "/"),
-    getNavItem(Icons.search, "Resep Makanan & Minuman", MenuMakanScreen.routeName),
-    getNavItem(Icons.category, "Jenis Diet", JenisDietttScreen.routeName),
-    getNavItem(Icons.category, "Tips Diet", JenisDiettScreen.routeName),
-    getNavItem(Icons.book, "Tentang Foodiet", TentangScreen.routeName),
+    getNavItem(Icons.local_dining, "Resep Makanan & Minuman", MenuMakanScreen.routeName),
+    getNavItem(Icons.local_cafe, "Jenis Diet", JenisDietttScreen.routeName),
+    getNavItem(Icons.wb_incandescent, "Tips Diet", JenisDiettScreen.routeName),
+    getNavItem(Icons.toys, "Tentang Foodiet", TentangScreen.routeName),
     aboutChild
   ];
   

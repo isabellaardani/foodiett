@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class DietveganScreen extends StatelessWidget {
+  static const String routeName = "/dietvegan";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/jenisdiet/d10.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'Diet Vegan',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -29,28 +29,11 @@ class SpaghetiScreen extends StatelessWidget {
       padding: EdgeInsets.all(8.0),
       child: Text(
         '''
-Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
-•	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+Adalah metode diet yang membatasi semua makanan hasil produk hewani karena alasan etika, lingkungan, atau kesehatan.
 
+Selain menghilangkan mengkonsumsi daging, metode ini juga menghilangkan konsumsi susu, telur, dan produk turunan hewani, seperti gelatin, madu, albumin, kasein, dan beberapa bentuk vitamin D3.
 
-Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
-
+Pola diet vegan tampaknya sangat efektif untuk membantu orang menurunkan berat badan, seringkali tanpa menghitung kalori,  karena kandungan lemaknya yang sangat rendah dan serat yang tinggi membuat kamu merasa lebih kenyang lebih lama.
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +48,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 

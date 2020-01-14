@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MieGorengScreen extends StatelessWidget {
-  static const String routeName = "/miegoreng";
+class PepesTahuScreen extends StatelessWidget {
+  static const String routeName = "/pepestahu";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class MieGorengScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow4.jpg'),
+          backgroundImage: AssetImage('assets/images/wow13.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class MieGorengScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Mie Goreng Shirataki',
+        'Pepes Tahu Ayam Telor Diet Sehat Tanpa Minyak',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,25 +30,32 @@ class MieGorengScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	1 pack mie shirataki
-•	5 bh bawang merah, iris
-•	1 bh paprika, iris
-•	100 gr baby buncis
-•	Secukupnya sawi asin
-•	2 butir telur, kocok lepas
-•	1/2 sdt merica bubuk
-•	3 sdm saus tiram
-•	2 sdm kecap manis
-•	3 bh rawit merah, potong bulat (opt)
+•	1 bh tahu putih potong dadu
+•	1/4 dada ayam fillet tanpa kulit
+•	5 btr telor ayam
+•	kotak Wadah aluminium foil
+•	Daun bawang
+•	Daun jeruk
+•	Tomat
+•	Kemangi
+•	sesuai selera Gula dan garam
+•	Penyedap rasa (boleh di skip)
+•	Bumbu halus*
+•	6 bh bawang merah
+•	5 bh bawang putih
+•	7 bh kemiri sangrai
+•	Ketumbar
+•	3 bh Tomat
+•	10 bh Cabe merah
+•	1 ruas kunyit
+•	sedikit jahe
 
 
 Langkah	
-•	Siapkan mie Shirataki, rebus dlm air mendidih yg diberi sdkt garam dan 1 sdm minyak sayur. Stlh matang (lembut) angkat >> tiriskan
-•	Siapkan bumbu² dan potongan sayur yg telah dicuci
-•	Tumis bawang merah hg kuning lalu masukkan telur buat orak arik baru + paprika, aduk² hg harum + sayuran, masak hg lunak kemudian beri merica bubuk, aduk rata.
-•	Masukkan mie Shirataki, aduk hg merata baru + saus tiram dan kecap manis serta 1 sdm kecap ikan jika suka, aduk² masak dg api kecil. Setelah tercampur rata baru besarkan api, masak sebentar lalu matikan apinya.
-•	Sajikan panas². Enjoy 😋 
-
+•	Blender semua bumbu halus tumis tanpa minyak tambahkan daun jeruk biarkan agak kesat
+•	Tambahkan daun bawang dan tomat gula garam penyedap rasa, tumis lg sebentar matikan api.
+•	Masukkan tahu dan ayam yg sudah di potong dadu serta daun kemangi.
+•	Taruh di kotak aluminium foil tambah kan telor di atasnya serta daun kemangi. Kukus dan sajikan.
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),

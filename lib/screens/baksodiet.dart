@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaghetiScreen extends StatelessWidget {
-  static const String routeName = "/spagheti";
+class BaksoDietScreen extends StatelessWidget {
+  static const String routeName = "/baksodiet";
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SpaghetiScreen extends StatelessWidget {
         child: CircleAvatar(
           radius: 100.0,
           backgroundColor: Colors.transparent,
-          backgroundImage: AssetImage('assets/images/wow7.jpg'),
+          backgroundImage: AssetImage('assets/images/wow9.jpg'),
         ),
       ),
     );
@@ -20,7 +20,7 @@ class SpaghetiScreen extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        'Spagheti Whole Wheat Siram Ayam Kari (edisi diet)',
+        'Bakso Diet Sehat Low Carb',
         style: TextStyle(fontSize: 28.0, color: Colors.white),
       ),
     );
@@ -30,27 +30,23 @@ class SpaghetiScreen extends StatelessWidget {
       child: Text(
         '''
 Bahan-bahan	
-•	200 gram spagheti whole wheat
-•	250 gram ayam dada, potong kecil-kecil
-•	1/2 buah bawang bombay
-•	5 siung bawang putih
-•	1 sdm bubuk kari
-•	1/2 sdm bubuk cabai
-•	1 sdm oregano
-•	3 buah cabe merah, potong serong
-•	1 buah wortel, potong memanjang
+•	1 ons daging giling
+•	Segenggam oatmeal
+•	1 telor
+•	Bumbu halus
+•	2 bawang merah
+•	2 bawang putih
+•	Merica
 •	Garam
-•	Minyak tropicana slim
-•	Margarin (untuk aroma)
+•	Kaldu jamur
 
 
 Langkah	
-•	Rebus spagheti, tiriskan
-•	Panaskan minyak dengan margarin, tumis bawang putih, bombay sampai layu. Masukkan wortel, dan cabe merah
-•	Masukkan ayam, beri garam, oregano, bubuk kari, cabaim tes rasa
-•	Masak hingga ayam matang
-•	Tata spagheti dan tuang ayam kari diatasnya
-
+•	Uleg semua bumbu halus
+•	Campurkan jadi satu semua bahan
+•	Rebus air sampe mendidih
+•	Masukkan bulatan2 bakso
+•	Tunggu hingga mengapung
 ''',
         style: TextStyle(fontSize: 16.0, color: Colors.white),
       ),
@@ -65,10 +61,8 @@ Langkah
           Colors.orangeAccent[400],
         ]),
       ),
-      child: SingleChildScrollView(
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
-      ),
       ),
     );
 
